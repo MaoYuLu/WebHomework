@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+		<title>1</title>
+		<style type=text/css>
+			#container1 {POSITION: absolute; TOP: 100px}
+			#container2 {VISIBILITY: hidden; POSITION: absolute; TOP: 100px}
+			P{font-size: 12pt}
+		</style>
+	</head>
+	
+	<body>
+		<table order="1" align="center">
+			<tr>
+				<td>
+					<div style=container1>
+						<img src="F:\雨\22.jpg" width="100" >
+						<a href="http://www.rrdlc.com" style="color:red"><p style="font-size:15pt; color:pink; dont-family:行书体">人人贷理财</P></a>
+					</div>
+				</td>
+				<td>
+					<div style=container1>
+						<img src="F:\雨\22.jpg" width="100" >
+						<a href="http://www.rrdlc.com" style="color:red"><p style="font-size:15pt; color:pink; dont-family:行书体">人人贷理财</P></a>
+					</div>
+				</td>
+				<td>
+					<div style=container1>
+						<img src="F:\雨\22.jpg" width="100" >
+						<a href="http://www.rrdlc.com" style="color:red"><p style="font-size:15pt; color:pink; dont-family:行书体">人人贷理财</P></a>
+					</div>
+				</td>
+			</tr>
+
+		<table>
+	</body>
+</html>
+

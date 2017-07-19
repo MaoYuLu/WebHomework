@@ -1,0 +1,53 @@
+
+div{
+	background-color: green;
+	font-size: 20px;
+	color: pink;
+}
+
+.div3css{
+	color: white;
+	background-color: gray;
+}
+#div1{
+	font-family: "黑体";
+}
+span,div{
+	color: red;
+}
+
+
+			a:link{
+			/*去超链接下划线 text-decoration */
+				text-decoration: none;
+				color: blue;
+			}
+			/*已经访问过的超链接和未访问过的超链接会使用相同颜色*/
+			a:visited{
+				text-decoration: none;
+				color: green;
+			}
+			/*鼠标划上时*/
+			a:hover{
+			text-decoration: underline;
+			color: red;
+			font-size: 20px;
+			}
+			/*激活状态*/
+			a:active{
+			text-decoration: line-through;
+			color: yellow;
+			font-size: 30px;
+			border: 1px solid black;
+			}
+			/*去掉 ul 上的 小圆点 */
+			ul{
+			list-style-type: none;
+			list-style-image: url("images/1.png");
+			}
+			ul li{
+			/*浮动*/
+			float: left;
+			margin-left: 40px;
+		}
+		

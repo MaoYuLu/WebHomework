@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> 表单登录 </TITLE>
+	<meta http-equiv="content-type" content="text/html;charset=gb2312">
+
+ </HEAD>
+
+ <BODY>
+	<form action="01.html" method="post" >
+		<table width="500" align="center" border="2" >
+			<tr>
+				<td colspan="2" align="center">用户注册</td>
+			</tr>
+				<td>用户名：</td>
+				<td>
+					<input type=text name="username" size="20" maxlength="10">
+				</td>
+			</tr>
+			</tr>
+				<td>密码：</td>
+				<td>
+					<input type=password name="pwd" size="20" maxlength="10">
+				</td>
+			</tr>
+			</tr>
+				<td>确认密码：</td>
+				<td>
+					<input type=password name="pwd1" size="20" maxlength="10">
+				</td>
+			</tr>
+			</tr>
+				<td>性别</td>
+				<td>
+					<input type=radio name="sex" value="female" checked>女
+					<input type=radio name="sex" value="male" >男
+				</td>
+			</tr>
+			</tr>
+				<td>兴趣爱好</td>
+				<td>
+					<input type=checkbox name="intersect" value="running" >跑步
+					<input type=checkbox name="intersect" value="swiming" >游泳
+					<input type=checkbox name="intersect" value="singing" >唱歌
+					<input type=checkbox name="intersect" value="dancing" >跳舞
+					<input type=checkbox name="intersect" value="playing" >玩耍
+					<input type=checkbox name="intersect" value="reading" >阅读
+				</td>
+			</tr>
+			<tr>
+				<td>你擅长的</td>
+				<td>
+					<select name="tool" size="7" multiple>
+						<option value="java" selected>java</option>
+						<option value="c" >c</option>
+						<option value="c++" >c++</option>
+						<option value="html" >html</option>
+						<option value="css" >css</option>
+						<option value="xml" >xml</option>
+						<option value="javascript" >javascript</option>
+					</select>
+					</td>
+				</tr>
+			<tr>
+				<td>自我介绍</td>
+				<td>
+					<textarea rows="10" cols="50" name="intro" wrap="hand"  ></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="登录"  ></input>
+					<input type="reset" value="注销"  ></input>
+				</td>
+			</tr>
+
+
+
+		</table>
+	</form>
+
+ </BODY>
+</HTML>
