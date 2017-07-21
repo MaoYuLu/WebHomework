@@ -1,0 +1,16 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(../img/float.gif) no-repeat silver center fixed;
+}
+.news {
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+	padding: 0px;
+}
+.newsCont {
+	text-align: center;
+	color:gray;
+	font-size:15px;
+}

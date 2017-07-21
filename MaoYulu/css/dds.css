@@ -1,0 +1,26 @@
+#game_panel {
+	width: 600px;
+	height: 500px;
+	background-color: yellow;
+	/*相对定位，目的是使当前的box随着当前的ganme_panel面板位置移动。*/
+	position: relative;
+}
+
+.box {
+	background-color: pink;
+	border : 2px solid white;
+	position : absolute;
+}
+
+.ddsfloat{
+	/*背景图形式 路径 注意 需要加上一层目录*/
+	background-image: url("../img/float.gif");
+	border : 2px solid white;
+	position : absolute;
+}
+
+.ddspress{
+	background-image : url("../img/press.gif");
+	border : 2px solid white;
+	position : absolute;
+}
